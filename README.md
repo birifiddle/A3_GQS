@@ -1,23 +1,42 @@
-# Refatoração com Clean Code e Strategy Pattern
+# Projeto de Refatoração com Clean Code e Padrões de Projeto
 
-Este projeto refatora uma função de cálculo de área utilizando boas práticas de qualidade de software, aplicando os princípios SOLID e o padrão de projeto Strategy.
+Este projeto consiste na refatoração de um código legado de machine learning com foco na aplicação de boas práticas de desenvolvimento, tais como **Clean Code**, **princípios SOLID**, uso de **padrões de projeto**, **testes unitários** e **modularização**.
 
-## Tecnologias e conceitos
+---
 
-- Python 3.x
-- Princípios SOLID (SRP, OCP)
-- Clean Code (DRY, KISS)
-- Testes unitários com unittest
-- Design Pattern: Strategy
+## 📌 Objetivos
 
-## Estrutura
+- Refatorar um código legado utilizando princípios de engenharia de software.
+- Aplicar os princípios **SOLID**.
+- Garantir legibilidade e manutenção com **Clean Code**.
+- Utilizar **Design Pattern** (comitê de votação).
+- Escrever **testes unitários com Pytest**.
+- Separar responsabilidades e criar uma arquitetura modular.
 
-- `formas.py`: Interface Forma e classes específicas
-- `calculadora.py`: Contexto da estratégia de cálculo
-- `main.py`: Execução das formas e cálculo
-- `test_formas.py`: Testes unitários
+---
 
-##  Como executar
+## 🧠 Tecnologias Utilizadas
+
+- Python 3.11+
+- scikit-learn
+- pandas
+- numpy
+- pytest
+
+---
+
+## 🗂️ Estrutura do Projeto
 
 ```bash
-python main.py
+seu_projeto/
+│
+├── src/
+│   ├── data_generator.py       # Geração de dados sintéticos
+│   ├── data_preprocessor.py    # Pré-processamento e codificação
+│   ├── data_splitter.py        # Separação entre treino e teste
+│   ├── data_scaler.py          # Escalonamento dos dados
+│   ├── model_trainer.py        # Treinamento dos modelos
+│   └── voting_committee.py     # Implementação do comitê de votação
+│
+└── tests/
+    └── test_ml_module.py       # Testes unitários com Pytest
