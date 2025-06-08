@@ -4,7 +4,7 @@ Este projeto consiste na refatoração de um código legado de machine learning 
 
 ---
 
-## 📌 Objetivos
+## Objetivos
 
 - Refatorar um código legado utilizando princípios de engenharia de software.
 - Aplicar os princípios **SOLID**.
@@ -15,7 +15,7 @@ Este projeto consiste na refatoração de um código legado de machine learning 
 
 ---
 
-## 🧠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python 3.11+
 - scikit-learn
@@ -25,7 +25,7 @@ Este projeto consiste na refatoração de um código legado de machine learning 
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```bash
 seu_projeto/
