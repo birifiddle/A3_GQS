@@ -11,7 +11,7 @@ Boas práticas de Clean Code;
 Testes automatizados com pytest.
 
 Estrutura do Projeto
-.
+
 ├── src
 │   ├── data_generator.py         # Geração de dados simulados
 │   ├── data_preprocessing.py     # Tratamento e preparação dos dados
