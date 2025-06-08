@@ -27,16 +27,17 @@ Este projeto consiste na refatoração de um código legado de machine learning 
 
 ## Estrutura do Projeto
 
-```bash
-seu_projeto/
-│
 ├── src/
-│   ├── data_generator.py       # Geração de dados sintéticos
-│   ├── data_preprocessor.py    # Pré-processamento e codificação
-│   ├── data_splitter.py        # Separação entre treino e teste
-│   ├── data_scaler.py          # Escalonamento dos dados
-│   ├── model_trainer.py        # Treinamento dos modelos
-│   └── voting_committee.py     # Implementação do comitê de votação
+│   ├── data_generator.py        # Geração de dados simulados
+│   ├── preprocessing.py         # Pré-processamento dos dados
+│   ├── model_training.py        # Treinamento e avaliação dos modelos
+│   └── evaluation.py            # Avaliação dos resultados
 │
-└── tests/
-    └── test_ml_module.py       # Testes unitários com Pytest
+├── tests/
+│   ├── test_data_generator.py
+│   ├── test_model_training.py
+│   └── test_evaluation.py
+│
+├── main.py                      # Script principal
+├── README.md
+├── requirements.txt
