@@ -42,7 +42,7 @@ Instale as dependências:
 pip install -r requirements.txt
 
 Execute o projeto:
-python src/main.py
+python main.py
 
 Testes Automatizados:
 Os testes foram desenvolvidos com pytest. Para rodar os testes:
