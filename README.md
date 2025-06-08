@@ -11,7 +11,7 @@ Boas práticas de Clean Code;
 Testes automatizados com pytest.
 
 Estrutura do Projeto
-
+```
 ├── src
 │   ├── data_generator.py         # Geração de dados simulados
 │   ├── data_preprocessing.py     # Tratamento e preparação dos dados
@@ -27,7 +27,7 @@ Estrutura do Projeto
 ├── main.py                       # Ponto de entrada do sistema
 ├── requirements.txt              # Dependências do projeto
 └── README.md
-
+```
 Como Executar
 Clone o repositório:
 git clone https://github.com/seu-usuario/seu-repositorio.git
